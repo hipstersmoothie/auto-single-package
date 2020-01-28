@@ -1,11 +1,14 @@
 {
   "name": "@autorelease/auto-single-package",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": ".",
   "author": "Andrew Lisowski <lisowski54@gmail.com>",
   "license": "MIT",
   "repository": "hipstersmoothie/auto-single-package",
   "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "release": "auto shipit"
   },
