@@ -1,13 +1,14 @@
 {
   "name": "@autorelease/auto-single-package",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": ".",
   "author": "Andrew Lisowski <lisowski54@gmail.com>",
   "license": "MIT",
   "repository": "hipstersmoothie/auto-single-package",
   "main": "index.js",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
   },
   "scripts": {
     "release": "auto shipit"
