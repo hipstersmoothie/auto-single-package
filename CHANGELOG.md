@@ -1,3 +1,17 @@
+# v0.0.5 (Tue Jan 28 2020)
+
+#### ⚠️  Pushed to master
+
+- update version  ([@hipstersmoothie](https://github.com/hipstersmoothie))
+- add registry  ([@hipstersmoothie](https://github.com/hipstersmoothie))
+- add publish config  ([@hipstersmoothie](https://github.com/hipstersmoothie))
+
+#### Authors: 1
+
+- Andrew Lisowski ([@hipstersmoothie](https://github.com/hipstersmoothie))
+
+---
+
 # v0.0.4 (Tue Jan 28 2020)
 
 #### ⚠️  Pushed to master
