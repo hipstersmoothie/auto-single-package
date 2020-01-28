@@ -1,0 +1,20 @@
+{
+  "name": "@autorelease/auto-single-package",
+  "version": "0.0.0",
+  "description": ".",
+  "author": "Andrew Lisowski <lisowski54@gmail.com>",
+  "license": "MIT",
+  "repository": "hipstersmoothie/auto-single-package",
+  "main": "index.js",
+  "scripts": {
+    "release": "auto shipit"
+  },
+  "devDependencies": {
+    "auto": "^9.5.0"
+  },
+  "auto": {
+    "plugins": [
+      "npm"
+    ]
+  }
+}
