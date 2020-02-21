@@ -25,13 +25,9 @@ jobs:
     steps:
       - attach_workspace:
           at: ~/auto
-      - add_ssh_keys:
-          fingerprints:
-            - "22:1b:d1:7e:6d:3d:0e:2a:8d:af:81:48:aa:61:ed:2a"
       - run:
           name: Release
-          command: yarn auto shipit -vv
-
+          command: git remote -v && yarn auto shipit -vv
 
 workflows:
   version: 2
