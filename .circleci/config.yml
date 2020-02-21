@@ -12,11 +12,13 @@ jobs:
     <<: *defaults
     steps:
       - checkout
-      - run: yarn install
+      - run:
+          name: Install
+          command: yarn
       - persist_to_workspace:
           root: .
           paths:
-            - 
+            - .
 
   release:
     <<: *defaults
