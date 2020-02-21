@@ -4,7 +4,7 @@
   "description": ".",
   "author": "Andrew Lisowski <lisowski54@gmail.com>",
   "license": "MIT",
-  "repository": "hipstersmoothie/auto-single-package",
+  "repository": "https://github.com/hipstersmoothie/auto-single-package",
   "main": "index.js",
   "publishConfig": {
     "access": "public",
