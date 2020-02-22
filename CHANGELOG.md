@@ -1,3 +1,18 @@
+# v0.0.10 (Fri Feb 21 2020)
+
+#### ⚠️  Pushed to master
+
+- test  ([@hipstersmoothie](https://github.com/hipstersmoothie))
+- update url  ([@hipstersmoothie](https://github.com/hipstersmoothie))
+- update config  ([@hipstersmoothie](https://github.com/hipstersmoothie))
+- add circle  ([@hipstersmoothie](https://github.com/hipstersmoothie))
+
+#### Authors: 1
+
+- Andrew Lisowski ([@hipstersmoothie](https://github.com/hipstersmoothie))
+
+---
+
 # v0.0.9 (Tue Jan 28 2020)
 
 
