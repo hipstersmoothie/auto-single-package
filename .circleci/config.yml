@@ -27,7 +27,7 @@ jobs:
           at: ~/auto
       - run:
           name: Release
-          command: yarn auto shipit
+          command: git status && yarn auto shipit
 
 workflows:
   version: 2
