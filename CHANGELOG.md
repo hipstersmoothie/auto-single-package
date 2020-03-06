@@ -1,3 +1,20 @@
+# v0.0.17 (Fri Mar 06 2020)
+
+#### ⚠️  Pushed to `master`
+
+- update auto ([@hipstersmoothie](https://github.com/hipstersmoothie))
+
+#### 📝 Documentation
+
+- testing release [#8](https://github.com/hipstersmoothie/auto-single-package/pull/8) ([@hipstersmoothie](https://github.com/hipstersmoothie))
+- debug [#7](https://github.com/hipstersmoothie/auto-single-package/pull/7) ([@hipstersmoothie](https://github.com/hipstersmoothie))
+
+#### Authors: 1
+
+- Andrew Lisowski ([@hipstersmoothie](https://github.com/hipstersmoothie))
+
+---
+
 # v0.0.16 (Fri Mar 06 2020)
 
 #### ⚠️  Pushed to `master`
