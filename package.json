@@ -14,8 +14,12 @@
     "release": "auto shipit"
   },
   "devDependencies": {
-    "@auto-canary/auto": "9.12.0-canary.969.12626.0",
+    "@auto-canary/auto": "9.17.0-canary.3d532a8a.0",
+    "@auto-canary/gh-pages": "9.17.0-canary.3d532a8a.0",
     "install": "^0.13.0",
     "npm": "^6.13.7"
+  },
+  "auto": {
+    "plugins": ["npm", ["gh-pages", { "dir": "docs" }]]
   }
 }
