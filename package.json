@@ -1,6 +1,6 @@
 {
   "name": "@autorelease/auto-single-package",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "description": ".",
   "author": "Andrew Lisowski <lisowski54@gmail.com>",
   "license": "MIT",
@@ -20,6 +20,14 @@
     "npm": "^6.13.7"
   },
   "auto": {
-    "plugins": ["npm", ["gh-pages", { "dir": "docs" }]]
+    "plugins": [
+      "npm",
+      [
+        "gh-pages",
+        {
+          "dir": "docs"
+        }
+      ]
+    ]
   }
 }
