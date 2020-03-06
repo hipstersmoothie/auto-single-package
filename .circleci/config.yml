@@ -27,7 +27,7 @@ jobs:
           at: ~/auto
       - run:
           name: Release
-          command: git remote -v && yarn auto shipit
+          command: yarn auto shipit
 
 workflows:
   version: 2
