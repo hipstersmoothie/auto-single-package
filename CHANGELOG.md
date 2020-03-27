@@ -1,3 +1,20 @@
+# balls (Fri Mar 27 2020)
+
+#### 🐛 Bug Fix
+
+- test next [#11](https://github.com/hipstersmoothie/auto-single-package/pull/11) ([@hipstersmoothie](https://github.com/hipstersmoothie))
+
+#### 📝 Documentation
+
+- test [#10](https://github.com/hipstersmoothie/auto-single-package/pull/10) ([@hipstersmoothie](https://github.com/hipstersmoothie))
+- test [#9](https://github.com/hipstersmoothie/auto-single-package/pull/9) ([@hipstersmoothie](https://github.com/hipstersmoothie))
+
+#### Authors: 1
+
+- Andrew Lisowski ([@hipstersmoothie](https://github.com/hipstersmoothie))
+
+---
+
 # v0.0.17 (Fri Mar 06 2020)
 
 #### ⚠️  Pushed to `master`
