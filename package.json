@@ -14,8 +14,8 @@
     "release": "auto shipit"
   },
   "devDependencies": {
-    "@auto-canary/auto": "9.26.8-canary.9d713e79.0",
-    "@auto-canary/gh-pages": "9.26.8-canary.9d713e79.0",
+    "@auto-canary/auto": "9.26.8-canary.87df6717.0",
+    "@auto-canary/gh-pages": "9.26.8-canary.87df6717.0",
     "install": "^0.13.0",
     "npm": "^6.13.7"
   },
