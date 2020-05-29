@@ -1,3 +1,16 @@
+# v0.0.19 (Fri May 29 2020)
+
+#### 🐛 Bug Fix
+
+- update auto [#19](https://github.com/hipstersmoothie/auto-single-package/pull/19) ([@hipstersmoothie](https://github.com/hipstersmoothie))
+- test pick [#18](https://github.com/hipstersmoothie/auto-single-package/pull/18) ([@hipstersmoothie](https://github.com/hipstersmoothie))
+
+#### Authors: 1
+
+- Andrew Lisowski ([@hipstersmoothie](https://github.com/hipstersmoothie))
+
+---
+
 # v0.0.18 (Fri May 29 2020)
 
 #### 🐛 Bug Fix
