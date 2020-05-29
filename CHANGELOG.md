@@ -1,3 +1,17 @@
+# v0.0.20 (Fri May 29 2020)
+
+#### 🐛 Bug Fix
+
+- try this [#22](https://github.com/hipstersmoothie/auto-single-package/pull/22) ([@hipstersmoothie](https://github.com/hipstersmoothie))
+- fix cherry-pick command [#21](https://github.com/hipstersmoothie/auto-single-package/pull/21) ([@hipstersmoothie](https://github.com/hipstersmoothie))
+- update description [#20](https://github.com/hipstersmoothie/auto-single-package/pull/20) ([@hipstersmoothie](https://github.com/hipstersmoothie))
+
+#### Authors: 1
+
+- Andrew Lisowski ([@hipstersmoothie](https://github.com/hipstersmoothie))
+
+---
+
 # v0.0.19 (Fri May 29 2020)
 
 #### 🐛 Bug Fix
