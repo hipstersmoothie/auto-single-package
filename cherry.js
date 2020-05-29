@@ -35,6 +35,8 @@ module.exports = class NextCherryPickPlugin {
         const branch = await getCurrentBranch();
         const commitToCherryPick = await auto.git.getSha();
 
+        // We don't care about the version that just published so get rid of it
+        await execPromise("git", ["reset", "--hard", "HEAD"]);
         // Switch to master
         await execPromise("git", ["checkout", auto.baseBranch]);
         // Cherry pick the commit
