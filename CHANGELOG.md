@@ -1,3 +1,23 @@
+# v0.0.18 (Fri May 29 2020)
+
+#### 🐛 Bug Fix
+
+- add -m flag to pick a merge commit [#16](https://github.com/hipstersmoothie/auto-single-package/pull/16) ([@hipstersmoothie](https://github.com/hipstersmoothie))
+- add debugging info [#15](https://github.com/hipstersmoothie/auto-single-package/pull/15) ([@hipstersmoothie](https://github.com/hipstersmoothie))
+- reset hard before changing branches [#14](https://github.com/hipstersmoothie/auto-single-package/pull/14) ([@hipstersmoothie](https://github.com/hipstersmoothie))
+- Test patch cherry-pick [#13](https://github.com/hipstersmoothie/auto-single-package/pull/13) ([@hipstersmoothie](https://github.com/hipstersmoothie))
+
+#### 📝 Documentation
+
+- test [#10](https://github.com/hipstersmoothie/auto-single-package/pull/10) ([@hipstersmoothie](https://github.com/hipstersmoothie))
+- test [#9](https://github.com/hipstersmoothie/auto-single-package/pull/9) ([@hipstersmoothie](https://github.com/hipstersmoothie))
+
+#### Authors: 1
+
+- Andrew Lisowski ([@hipstersmoothie](https://github.com/hipstersmoothie))
+
+---
+
 # balls (Fri Mar 27 2020)
 
 #### 🐛 Bug Fix
