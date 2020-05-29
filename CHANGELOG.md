@@ -1,3 +1,15 @@
+# v0.0.21 (Fri May 29 2020)
+
+#### 🐛 Bug Fix
+
+- profit [#23](https://github.com/hipstersmoothie/auto-single-package/pull/23) ([@hipstersmoothie](https://github.com/hipstersmoothie))
+
+#### Authors: 1
+
+- Andrew Lisowski ([@hipstersmoothie](https://github.com/hipstersmoothie))
+
+---
+
 # v0.0.20 (Fri May 29 2020)
 
 #### 🐛 Bug Fix
