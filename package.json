@@ -3,6 +3,7 @@
   "version": "0.0.17",
   "author": "Andrew Lisowski <lisowski54@gmail.com>",
   "license": "MIT",
+  "description": "A package for testing auto",
   "repository": "https://github.com/hipstersmoothie/auto-single-package",
   "main": "index.js",
   "publishConfig": {
