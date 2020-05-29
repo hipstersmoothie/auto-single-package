@@ -14,14 +14,15 @@
     "release": "auto shipit"
   },
   "devDependencies": {
-    "@auto-canary/auto": "9.26.8-canary.329385a6.0",
-    "@auto-canary/gh-pages": "9.26.8-canary.329385a6.0",
+    "@auto-canary/auto": "9.36.5-canary.1265.16177.0",
+    "@auto-canary/gh-pages": "9.36.5-canary.1265.16177.0",
     "install": "^0.13.0",
     "npm": "^6.13.7"
   },
   "auto": {
     "plugins": [
       "npm",
+      "./cherry.js",
       [
         "gh-pages",
         {
