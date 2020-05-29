@@ -28,15 +28,12 @@ module.exports = class NextCherryPickPlugin {
       return config;
     });
 
-
     auto.hooks.next.tapPromise(this.name, async (_, bump, { commits }) => {
       const headLabels = commits[0] ? commits[0].labels : [];
 
       auto.logger.log.info(
         `Labels found on the last commit: ${headLabels.join(", ")}`
       );
-
-      console.log(bump === SEMVER.patch, headLabels.includes(CHERRY_PICK_LABEL))
 
       if (bump === SEMVER.patch && headLabels.includes(CHERRY_PICK_LABEL)) {
         const branch = await getCurrentBranch();
@@ -48,13 +45,13 @@ module.exports = class NextCherryPickPlugin {
         auto.logger.log.info("Switching to master...");
         await execPromise("git", ["checkout", auto.baseBranch]);
         auto.logger.log.info("Cherry picking the commit...");
-        await execPromise("git", ["cherry-pick", commitToCherryPick]);
+        await execPromise("git", ["cherry-pick", "-m", commitToCherryPick]);
         auto.logger.log.info("Pushing the new commit...");
         await execPromise("git", ["push", auto.remote, auto.baseBranch]);
         auto.logger.log.info(`Switching back to "${branch}"...`);
         await execPromise("git", ["checkout", branch]);
 
-        auto.logger.log.success('Updated master with bug-fix!');
+        auto.logger.log.success("Updated master with bug-fix!");
       } else {
         auto.logger.log.info(
           `Did not detect patch with ${CHERRY_PICK_LABEL}, no updates to master pushed.`
