@@ -45,7 +45,12 @@ module.exports = class NextCherryPickPlugin {
         auto.logger.log.info("Switching to master...");
         await execPromise("git", ["checkout", auto.baseBranch]);
         auto.logger.log.info("Cherry picking the commit...");
-        await execPromise("git", ["cherry-pick", "-m", commitToCherryPick]);
+        await execPromise("git", [
+          "cherry-pick",
+          commitToCherryPick,
+          "-m",
+          1,
+        ]);
         auto.logger.log.info("Pushing the new commit...");
         await execPromise("git", ["push", auto.remote, auto.baseBranch]);
         auto.logger.log.info(`Switching back to "${branch}"...`);
