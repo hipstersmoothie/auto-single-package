@@ -49,7 +49,7 @@ module.exports = class NextCherryPickPlugin {
           "cherry-pick",
           commitToCherryPick,
           "-m",
-          1,
+          "1",
         ]);
         auto.logger.log.info("Pushing the new commit...");
         await execPromise("git", ["push", auto.remote, auto.baseBranch]);
