@@ -3,7 +3,7 @@
   "version": "0.0.17",
   "author": "Andrew Lisowski <lisowski54@gmail.com>",
   "license": "MIT",
-  "description": "All profit no whammies",
+  "description": "All profit no whammies!",
   "repository": "https://github.com/hipstersmoothie/auto-single-package",
   "main": "index.js",
   "publishConfig": {
