@@ -4,6 +4,7 @@ const { SEMVER, execPromise, getCurrentBranch } = require("@auto-canary/core");
 
 const CHERRY_PICK_LABEL = "bug-fix";
 
+console.log()
 module.exports = class NextCherryPickPlugin {
   constructor() {
     this.name = "next-cherry-pick";
