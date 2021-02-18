@@ -13,19 +13,21 @@
     "release": "auto shipit"
   },
   "devDependencies": {
-    "@auto-canary/auto": "9.36.5-canary.1265.16182.0",
-    "@auto-canary/gh-pages": "9.36.5-canary.1265.16182.0",
+    "@auto-canary/auto": "10.17.0-canary.1815.22343.0",
+    "@auto-canary/slack": "10.17.0-canary.1815.22343.0",
     "install": "^0.13.0",
     "npm": "^6.13.7"
   },
   "auto": {
     "plugins": [
       "npm",
-      "./cherry.js",
       [
-        "gh-pages",
+        "slack",
         {
-          "dir": "docs"
+          "auth": "app",
+          "channels": [
+            "general"
+          ]
         }
       ]
     ]
