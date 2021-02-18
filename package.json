@@ -2,6 +2,7 @@
   "name": "@autorelease/auto-single-package",
   "version": "0.0.23",
   "author": "Andrew Lisowski <lisowski54@gmail.com>",
+  "description": "test",
   "license": "MIT",
   "repository": "https://github.com/hipstersmoothie/auto-single-package",
   "main": "index.js",
