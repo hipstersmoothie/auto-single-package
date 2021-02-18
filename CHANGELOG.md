@@ -1,3 +1,15 @@
+# v0.0.35 (Thu Feb 18 2021)
+
+#### ⚠️ Pushed to `master`
+
+- test (lisowski54@gmail.com)
+
+#### Authors: 1
+
+- Andrew Lisowski (lisowski54@gmail.com)
+
+---
+
 # v0.0.34 (Thu Feb 18 2021)
 
 #### ⚠️ Pushed to `master`
