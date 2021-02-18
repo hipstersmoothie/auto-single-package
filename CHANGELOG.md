@@ -1,3 +1,26 @@
+# v0.0.43 (Thu Feb 18 2021)
+
+### Release Notes
+
+#### test ([#35](https://github.com/hipstersmoothie/auto-single-package/pull/35))
+
+Blah blah blah
+
+```md
+> Some code
+
+---
+
+#### 🐛 Bug Fix
+
+- test [#35](https://github.com/hipstersmoothie/auto-single-package/pull/35) ([@hipstersmoothie](https://github.com/hipstersmoothie))
+
+#### Authors: 1
+
+- Andrew Lisowski ([@hipstersmoothie](https://github.com/hipstersmoothie))
+
+---
+
 # v0.0.42 (Thu Feb 18 2021)
 
 #### ⚠️ Pushed to `master`
