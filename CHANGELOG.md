@@ -1,3 +1,15 @@
+# v0.0.23 (Thu Feb 18 2021)
+
+#### ⚠️ Pushed to `master`
+
+- update auto (lisowski54@gmail.com)
+
+#### Authors: 1
+
+- Andrew Lisowski (lisowski54@gmail.com)
+
+---
+
 # v0.0.21 (Fri May 29 2020)
 
 #### 🐛 Bug Fix
