@@ -2,7 +2,7 @@
   "name": "@autorelease/auto-single-package",
   "version": "0.0.43",
   "author": "Andrew Lisowski <lisowski54@gmail.com>",
-  "description": "asdf",
+  "description": "",
   "license": "MIT",
   "repository": "https://github.com/hipstersmoothie/auto-single-package",
   "main": "index.js",
